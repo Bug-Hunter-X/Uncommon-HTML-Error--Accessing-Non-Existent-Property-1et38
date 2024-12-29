@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle error in HTML/JavaScript interaction: attempting to access a property of a DOM element that doesn't exist.  The error can be difficult to track down because it might not always produce an immediate, obvious error message. The solution involves thorough property checking before access.
