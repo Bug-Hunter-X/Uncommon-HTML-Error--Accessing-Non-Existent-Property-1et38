@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <div id="myDiv">
+    <p>This is some text.</p>
+  </div>
+
+  <script>
+    // This will throw an error because it tries to access a non-existent property
+    console.log(document.getElementById('myDiv').doesNotExist);
+  </script>
+</body>
+</html>
